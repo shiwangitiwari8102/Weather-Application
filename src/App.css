@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://m-cdn.phonearena.com/images/article/143515-wide-two_1200/Apple-tests-adding-news-to-the-native-Weather-app-in-iOS-16.2-Beta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+} 
+
+.App {
+  margin-top: 10%;
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  background-color: #033043;
+  color:white;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+ 
+  
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.btn{
+  border:none;
+  border-radius: 10px;
+  background-color: rgb(27 26 33);
+  color:white;
+  padding: 10px 40px;
+  font-size: 1rem;
+
+}
+.btn:hover{
+  background-color: #364750;
+}
+
+.weather-display {
+ 
+ background: linear-gradient(to left, #032030, #022B42, #003554, #004d74, #006494, #006DA4);
+ margin-bottom: 20px;
+
+}
+
+
+
+.map-container {
+  height: 100px; 
+  width: 100%;  
+  margin: 0 auto; 
+  border: 2px solid #ccc; 
+  border-radius: 8px; 
+}
+
+.feedback-form {
+ 
+  background: linear-gradient(to left, #032030, #022B42, #003554, #004d74, #006494, #006DA4);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid #006494;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.feedback-form .form-group {
+  margin-bottom: 15px;
+  
+}
+
+
+.feedback-form .btn-primary {
+  border:none;
+  border-radius: 10px;
+  background-color: rgb(27 26 33);
+  color:white;
+  padding: 10px 40px;
+  font-size: 1rem;
+}
+
+.feedback-form .btn-primary:hover {
+  background-color: #364750;
+ } 
+
+
+
+ 
